@@ -281,32 +281,32 @@ footer {
     gap: 100px;
     font-family: 'LjStudiosMb', sans-serif;
     margin-bottom: 150px;
+    color: #F85AA1;
 }
 
 #afterword h2{
     font-weight: 700;
     font-size: 100px;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
 }
 
 #afterword a{
     text-decoration: none;
-    color: #000;
+    color: #F85AA1;
 }
 
 #afterword a:hover{
     opacity: 0.8;
-    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
 }
 
 .poweredBy {
-    color: #F85AA1;
     transition: all 0.5s ease;
-    animation: poweredAnim 3s linear infinite;
+    animation: poweredAnim 5s linear infinite;
 }
 
 @keyframes poweredAnim {
     0% {
-      text-shadow: none;
+        text-shadow: none;
     }
     25% {
         text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
@@ -326,6 +326,12 @@ footer {
     color: #aaaaaa;
     background-color: rgb(255, 255, 255);
 } 
+
+.noselect {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
 
 @font-face {
     font-family: "LjStudiosMb"; 
