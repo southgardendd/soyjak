@@ -14,6 +14,10 @@ body {
     display: flex;
 }
 
+.mobileHeader {
+    display: none;
+}
+
 .headerBox{
     width: 1440px;
     padding: 20px 0px 20px 0px;
@@ -29,6 +33,10 @@ body {
 
 .logo:hover {
     animation-play-state: paused;
+}
+
+.heroMobile {
+    display: none;
 }
 
 @keyframes rotateLogo {
@@ -355,3 +363,153 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* font-family: 'LjStudiosMb', sans-serif; */
+
+@media screen and (max-width: 820px) {
+
+    .aboutImg, .horizontalImg {
+        width: 700px;
+    }
+
+    .tokenomicsImg {
+        width: 780px;
+    }
+
+    .tokenomicsHeader h2 {
+        font-size: 50px;
+    }
+
+    .roadmapHeader h2 {
+        font-size: 50px;
+    }
+
+    .roadmapBox {
+        width: 370px;
+    }
+
+    #afterword{
+        gap: 25px;
+    }
+
+    #afterword h2{
+        font-size: 50px;
+        line-height: 75px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tokenomicsImg {
+        width: 750px;
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+    header {
+        display: none;
+    }
+
+    .mobileHeader {
+        display: block;
+        padding: 20px;
+    }
+
+    .heroContainer {
+        display: none;
+    }
+
+    .heroMobile {
+        display: block;
+    }
+
+    .heroMobileImg {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .aboutImg, .horizontalImg {
+        width: 300px;
+    }
+
+    .tokenomicsImg {
+        width: 400px;
+    }
+
+    .aboutInfo p {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .tokenomicsContainer {
+        gap: 25px;
+    }
+
+    .tokenomicsInfo p {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .tokenomicsHeader h2 {
+        font-size: 50px;
+    }
+
+    .roadmapHeader h2 {
+        font-size: 50px;
+    }
+
+    .roadmapBox {
+        width: 370px;
+        min-height: 300px;
+        max-height: 400px;
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    #afterword{
+        gap: 25px;
+    }
+
+    #afterword h2{
+        font-size: 50px;
+        line-height: 75px;
+    }
+}
+
+@media screen and (max-width: 391px) {
+    .heroContainer {
+        display: none;
+    }
+
+    header {
+        display: none;
+    }
+
+    .aboutImg, .horizontalImg {
+        width: 300px;
+    }
+
+    .tokenomicsImg {
+        width: 380px;
+    }
+
+    .tokenomicsHeader h2 {
+        font-size: 50px;
+    }
+
+    .roadmapHeader h2 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .roadmapBox {
+        max-width: 370px;
+    }
+
+    #afterword{
+        gap: 25px;
+    }
+
+    #afterword h2{
+        font-size: 50px;
+    }
+
+}
