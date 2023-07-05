@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #C6FF3A;
+    background: linear-gradient(#C6FF3A,#69c542);
     /* background-image: url("../images/paper.webp"); */
     background-blend-mode: soft-light;
     display: flex;
@@ -24,6 +25,10 @@ body {
 .logo {
     transition: all 0.5s ease;
     animation: rotateLogo 3s linear infinite;
+}
+
+.logo:hover {
+    animation-play-state: paused;
 }
 
 @keyframes rotateLogo {
