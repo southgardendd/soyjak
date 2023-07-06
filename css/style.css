@@ -215,13 +215,21 @@ footer {
     margin-bottom: 150px;
 }
 
+.utilityHeader {
+    color: #F85AA1;
+    font-family: 'LjStudiosMb', sans-serif;
+    font-size: 200px;
+    text-align: center;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px;
+}
+
 #utility h2{
     color: #F85AA1;
     font-family: 'LjStudiosMb', sans-serif;
     font-weight: 700;
     font-size: 100px;
     text-align: center;
-    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px;
+    text-shadow: #FFF 0px 0px 3px, #FFF 0px 0px 5px,  #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px;
 }
 
 #roadmap {
@@ -392,6 +400,10 @@ body::-webkit-scrollbar-thumb {
         font-size: 50px;
     }
 
+    .tokenomicsContainer {
+        max-width: 800px;
+    }
+
     .roadmapHeader h2 {
         font-size: 50px;
     }
@@ -407,6 +419,20 @@ body::-webkit-scrollbar-thumb {
     #afterword h2{
         font-size: 50px;
         line-height: 75px;
+    }
+
+    #utility {
+        max-width:  800px;
+        margin-bottom: 50px;
+    }
+
+    .utilityHeader {
+        font-size: 55px;
+    }
+
+    #utility h2{
+        font-size: 40px;
+        line-height: 55px;
     }
 }
 
@@ -463,6 +489,7 @@ body::-webkit-scrollbar-thumb {
     .aboutInfo p {
         font-size: 17px;
         line-height: 20px;
+        max-width: 400px;
     }
 
     .tokenomicsContainer {
@@ -498,6 +525,11 @@ body::-webkit-scrollbar-thumb {
     #utility {
         max-width: 400px;
         margin-bottom: 50px;
+    }
+
+    .utilityHeader {
+        font-size: 55px;
+        line-height: 100px;
     }
 
     #utility h2{
